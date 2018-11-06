@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  dotnetcore-builder:
+    image: ${REGISTRY}dotnetcore:runtime
+    build: 
+      context: .
+      dockerfile: Dockerfile      
+      args:
+        TimeZone: "America/Cuiaba"
