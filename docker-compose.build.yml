@@ -9,4 +9,6 @@ services:
       context: .
       dockerfile: Dockerfile      
       args:
-        TimeZone: "America/Cuiaba"
+        TimeZone: "America/Cuiaba" #OPCIONAL: default = America/Cuiaba
+        Language: "pt_BR" #OPCIONAL: default = pt_BR
+        Unicode: "UTF-8" #OPCIONAL: default = UTF-8
