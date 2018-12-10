@@ -4,7 +4,7 @@
 version: '3.5'
 services:
   dotnetcore-runtime:
-    image: nexusdocker.tjmt.jus.br/dsa/dotnetcore:2.2-runtime
+    image: tjmt/dotnetcore:runtime
     build: 
       context: .
       dockerfile: Dockerfile   
