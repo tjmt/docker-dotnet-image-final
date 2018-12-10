@@ -4,11 +4,7 @@
 version: '3.5'
 services:
   dotnetcore-builder:
-    image: tjmt/dotnetcore:runtime
+    image: nexusdocker.tjmt.jus.br/dsa/dotnetcore:2.2-runtime
     build: 
       context: .
-      dockerfile: Dockerfile      
-      args:
-        TimeZone: "America/Cuiaba" #OPCIONAL: default = America/Cuiaba
-        Language: "pt_BR" #OPCIONAL: default = pt_BR
-        Unicode: "UTF-8" #OPCIONAL: default = UTF-8
+      dockerfile: Dockerfile   
