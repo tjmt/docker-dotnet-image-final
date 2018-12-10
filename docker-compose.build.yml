@@ -3,7 +3,7 @@
 
 version: '3.5'
 services:
-  dotnetcore-builder:
+  dotnetcore-runtime:
     image: nexusdocker.tjmt.jus.br/dsa/dotnetcore:2.2-runtime
     build: 
       context: .
